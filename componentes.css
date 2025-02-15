@@ -38,3 +38,51 @@
     color: var(--branco);
     background-color: var(--verde);
 }
+
+@media only screen and (max-width:768px) {
+    .btn {
+        padding: 1.3rem 2rem;
+        font-size: 2rem;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .nav__icon, 
+    .nav__close {
+        display: block;
+    }
+
+    .nav__icon svg, 
+    .nav__close svg {
+        pointer-events: none;
+        height: 30px;
+        width: 30px;
+    }
+
+    .nav__close {
+        position: absolute;
+        color: var(--preto-1);
+        right: 1rem;
+        top: 1rem;
+        cursor: pointer;
+    }
+
+    .nav__list {
+        display: flex;
+        position: absolute;
+        left: 100%;
+        width: 80%;
+        top: 0;
+        height: 100vh;
+        background: var(--lclaro-1);
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 2rem;
+        transform: translateX(0);
+        overflow: hidden;
+        transition: 0.3s ease-in transform;
+        z-index: 1000;
+    }
+}
