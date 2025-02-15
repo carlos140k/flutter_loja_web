@@ -1,0 +1,40 @@
+.nav {
+    padding: 2rem 0;
+}
+
+.nav__icon, 
+.nav__close, 
+.nav__bgOverlayer {
+    display: none;
+}
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list  li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.nav__list .nav__link {
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    color: var(--preto-2);
+    padding: 0.5rem;
+}
+
+.btn {
+    color: var(--verde);
+    font-family: 'Poppins';
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+}
+
+.primary-btn {
+    color: var(--branco);
+    background-color: var(--verde);
+}
