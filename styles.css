@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+:root {
+    --laranja-1: #d4a017;
+    --laranja-2: #fed8b1;
+    --lclaro-1: #e7dfe2;
+    --lclaro-2: #cccacb;
+
+    --preto-1: #3b413a;
+    --preto-2: #3f3c3c;
+    --preto-3: #5b6359;
+
+    --branco: #e8e8e8;
+}
+
+body {
+    background-color: var(--laranja-2);
+    overflow-x: hidden;
+}
+
+section {
+    padding: 100px 0;
+}
+
+@media only screen and (max-width:768px) {
+    section {
+        padding: 100px 0;
+    }
+}
