@@ -125,7 +125,7 @@
 }
 
 footer {
-    background: var(--laranja-2);
+    background: var(--lclaro-3);
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
@@ -165,7 +165,7 @@ footer {
     border-radius: 8px;
 }
 
-.footer__socials img {
+.footer__socials svg {
     width: 20px;
     color: var(--preto-2);
 }
@@ -175,4 +175,69 @@ footer {
     margin-bottom: 1rem;
     color: var(--preto-2);
     font-weight: 600;
+}
+
+.footer__text a {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--preto-2);
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        padding: 8rem 0 4rem 0;
+    }
+
+    .footer__wrapp {
+        flex-direction: row;
+    }
+
+    .footer__col1 {
+        flex: 4;
+    }
+
+    .footer__col2,
+    .footer__col3,
+    .footer__col4 {
+        flex: 2;
+    }
+
+    .footer__desc {
+        max-width: 300px;
+        font-size: 1.8rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .footer__socials__title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer__text__title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer__text a {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#copyright {
+    padding: 1rem 0;
+}
+
+.copyright__text {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .copyright__text {
+        font-size: 1.6rem;
+        text-align: left;
+    }
 }
