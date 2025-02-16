@@ -1,0 +1,43 @@
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+}
+
+.hero__left {
+    max-width: 350px;
+}
+
+.hero__imgWrapper {
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero__heading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--preto-1);
+}
+
+.hero__info {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--preto-2);
+}
+
+.button__wrapper {
+    text-align: center;
+}
+
+.success-btn {
+    color: var(--branco);
+    background-color: var(--verde);
+}
