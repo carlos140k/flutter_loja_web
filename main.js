@@ -40,5 +40,4 @@ AOS.init({
     once: false, 
     mirror: false, 
     anchorPlacement: 'top-bottom', 
-    disable: window.innerWidth < 768, 
 });
