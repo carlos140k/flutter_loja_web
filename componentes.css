@@ -243,10 +243,3 @@ footer {
     font-size: 1.4rem;
     text-align: center;
 }
-
-@media only screen and (min-width: 768px) {
-    .copyright__text {
-        font-size: 1.6rem;
-        text-align: left;
-    }
-}
