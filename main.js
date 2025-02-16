@@ -32,15 +32,12 @@ navIconEl.addEventListener('click', navOpen);
 navCloseEl.addEventListener('click', navClose);
 navBgOverlayEl.addEventListener('click', navClose);
 
-document.addEventListener("DOMContentLoaded", function() {
-    AOS.init({
-        offset: 120, // Distância antes de iniciar a animação
-        delay: 0, // Sem atraso extra
-        duration: 600, // Tempo da animação
-        easing: 'ease-in-out', // Suavização
-        once: false, // Mantém animando ao rolar para cima/baixo
-        mirror: true, // Se quiser repetir a animação ao rolar para cima
-        anchorPlacement: 'top-bottom', // Anima quando 50% do elemento entra na tela
-    });
+AOS.init({
+    offset: 120, 
+    delay: 100, 
+    duration: 600, 
+    easing: 'ease', 
+    once: false, 
+    mirror: false, 
+    anchorPlacement: 'top-bottom', 
 });
-
