@@ -243,3 +243,35 @@ footer {
     font-size: 1.4rem;
     text-align: center;
 }
+
+.storeinfo__wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.storeinfo__item {
+    background-color: var(--lclaro-3);
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.storeinfo__icon i {
+    font-size: 3rem; 
+    color: var(--salmon);
+    margin-bottom: 1rem; 
+}
+
+.storeinfo__title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--verde);
+}
+
+.storeinfo__text {
+    font-size: 1.4rem;
+}
