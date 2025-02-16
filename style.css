@@ -18,6 +18,7 @@ html {
     --laranja-2: #fed8b1;
     --lclaro-1: #e7dfe2;
     --lclaro-2: #cccacb;
+    --salmon: #ff6b6b;
 
     --preto-1: #3b413a;
     --preto-2: #3f3c3c;
@@ -28,7 +29,7 @@ html {
 }
 
 body {
-    background-color: var(--laranja-2);
+    background-color: var(--lclaro-1);
     overflow-x: hidden;
 }
 
