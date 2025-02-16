@@ -75,6 +75,13 @@
 
     .hero__imgWrapper {
         max-width: none;
-        width: 600px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    [data-aos] {
+        opacity: 1 !important; 
+        transform: none !important; 
     }
 }

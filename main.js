@@ -31,3 +31,14 @@ const navClose = () => {
 navIconEl.addEventListener('click', navOpen);
 navCloseEl.addEventListener('click', navClose);
 navBgOverlayEl.addEventListener('click', navClose);
+
+AOS.init({
+    offset: 120, 
+    delay: 100, 
+    duration: 600, 
+    easing: 'ease', 
+    once: false, 
+    mirror: false, 
+    anchorPlacement: 'top-bottom', 
+    disable: window.innerWidth < 768, 
+});
