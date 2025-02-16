@@ -141,6 +141,10 @@ footer {
     margin-bottom: 2rem;
 }
 
+.footer__col1 .footer_desc {
+    line-height: 1.6;
+}
+
 .footer__desc {
     font-size: 1.4rem;
     color: var(--preto-2);
