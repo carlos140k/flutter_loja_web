@@ -42,7 +42,7 @@
     background-color: var(--verde);
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
     .hero__wrapper {
         flex-direction: row;
         gap: 0;
@@ -159,7 +159,7 @@
     margin-bottom: 1rem;
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
     #especialidade {
         padding-top: 15rem;
     }
@@ -223,7 +223,7 @@
     }
 }
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width: 300px) {
     .especialidade__left {
         flex-wrap: wrap;
         gap: 10rem;
@@ -299,7 +299,7 @@
     color: var(--violeta);
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
     .desconto__wrapper {
         flex-direction: row;
         gap: 4rem;
@@ -348,5 +348,28 @@
 
     .desconto__img3 {
         display: none;
+    }
+}
+
+.eventos__wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.eventos__1 {
+    position: relative;
+}
+
+.eventos__1 img {
+    height: 500px;
+}
+
+.eventos__2 img {
+    height: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+    .eventos__wrapper {
+        gap: 12rem;
     }
 }
