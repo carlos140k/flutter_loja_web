@@ -16,6 +16,7 @@ html {
 :root {
     --laranja-1: #d4a017;
     --laranja-2: #fed8b1;
+    --laranja-3: #ffb703;
     --lclaro-1: #e7dfe2;
     --lclaro-2: #cccacb;
     --lclaro-3: #ffebcd;
@@ -26,6 +27,7 @@ html {
     --lightGreen-1: #90ee90;
     --marrom: #a52a2a;
 
+    --preto-0: #000; 
     --preto-1: #3b413a;
     --preto-2: #3f3c3c;
     --preto-3: #5b6359;

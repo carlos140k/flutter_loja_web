@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="componentes.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
@@ -45,7 +47,93 @@
             </div>
         </div>
     </div>
-<h1>Página Contato</h1>
+
+    <section id="storeinfo" data-aos="fade-down">
+        <div class="container">
+            <div class="storeinfo__wrapper">
+
+                <div class="storeinfo__item">
+                    <div class="storeinfo__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="storeinfo__title">
+                        08:00 AM - 19:00 PM
+                    </h3>
+                    <p class="storeinfo__text">
+                        Horário de Funcionamento
+                    </p>
+                </div>
+
+                <div class="storeinfo__item">
+                    <div class="storeinfo__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="storeinfo__title">
+                        Parauapebas
+                    </h3>
+                    <p class="storeinfo__text">
+                        Endereço
+                    </p>
+                </div>
+
+                <div class="storeinfo__item">
+                    <div class="storeinfo__icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 class="storeinfo__title">
+                        +5594991331182
+                    </h3>
+                    <p class="storeinfo__text">
+                        Telefone
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form" data-aos="fade-down">
+        <div class="container">
+            <h3 class="form__title">
+                Contato & Reservas
+            </h3>
+            <div class="form__wrapper">
+                <form name="contact" method="post" netlify>
+    
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="firstName">Nome:</label>
+                            <input type="text" id="firstName" name="First Name" required>
+                        </div>
+    
+                        <div class="form__group">
+                            <label for="lastName">Sobrenome:</label>
+                            <input type="text" id="lastName" name="Last Name" required>
+                        </div>
+                    </div>
+    
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="email">E-mail:</label>
+                            <input type="text" id="email" name="Email" required>
+                        </div>
+    
+                        <div class="form__group">
+                            <label for="subject">Assunto:</label>
+                            <input type="text" id="subject" name="Subject" required>
+                        </div>
+                    </div>
+    
+                    <div class="form__group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="Message" cols="30" rows="10"></textarea>
+                    </div>
+    
+                    <button type="submit" class="btn primary-btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>    
+
     <footer>
         <div class="container">
             <div class="footer__wrapp">
