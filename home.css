@@ -120,7 +120,7 @@
 }
 
 .especialidade__item {
-    background-color: var(--salmon);
+    background-color: var(--laranja-pêssego-claro);
     padding: 1.2rem;
     padding-top: 5rem;
     border-radius: 12px;
@@ -158,11 +158,15 @@
     display: flex;
     gap: 0.3rem;
     margin-bottom: 1rem;
+    background-color: var(--salmon);
+    padding: 10px;
+    width: 110px;
+    border-radius: 10px;
 }
 
 .especialidade__item__stars i {
     font-size: 1.4rem; 
-    color: var(--amarelo) 
+    color: var(--amarelo); 
 }
 
 .especialidade__item__text {
@@ -531,7 +535,7 @@
 }
 
 .nos__item {
-    background: var(--salmon);
+    background: var(--laranja-pêssego-claro);
     padding: 2rem;
     border-radius: 12px;
 }
@@ -611,7 +615,7 @@
 }
 
 .casal__item {
-    background: var(--salmon);
+    background: var(--laranja-pêssego-claro);
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -698,7 +702,7 @@
 }
 
 #inscreva {
-    background: var(--salmon);
+    background: var(--laranja-pêssego-claro);
     padding: 3rem 0;
 }
 

@@ -22,7 +22,7 @@
 }
 
 .especialidade__item {
-    background-color: var(--salmon);
+    background-color: var(--laranja-pêssego-claro);
     padding: 1.2rem;
     padding-top: 3rem;
     border-radius: 12px;
@@ -60,6 +60,10 @@
     display: flex;
     gap: 0.3rem;
     margin-bottom: 1rem;
+    background-color: var(--salmon);
+    padding: 10px;
+    width: 110px;
+    border-radius: 10px;
 }
 
 .especialidade__item__stars i {
@@ -109,12 +113,8 @@
     }
 
     .especialidade__item {
-        background-color: var(--salmon);
-        padding: 1.2rem;
         padding-top: 5rem;
-        border-radius: 12px;
         width: 45%;
-        margin: 0 auto;
     }
 
     .especialidade__item__img {
@@ -138,6 +138,7 @@
 
     .especialidade__item__stars {
         margin-bottom: 2rem;
+        width: 125px;
     }
 
     .especialidade__item__text {

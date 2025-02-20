@@ -324,7 +324,7 @@ footer {
 .pratoGril__item {
     display: flex;
     flex-direction: column;
-    background-color: var(--salmon);
+    background-color: var(--laranja-pêssego-claro);
     padding: 0.5rem;
     border-radius: 8px;
     gap: 0.5rem;
@@ -363,6 +363,10 @@ footer {
     display: flex;
     gap: 0.3rem;
     margin-bottom: 1rem;
+    background-color: var(--salmon);
+    padding: 10px;
+    width: 110px;
+    border-radius: 10px;
 }
 
 .pratoGril__item__stars i {
