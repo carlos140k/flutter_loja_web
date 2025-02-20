@@ -1,7 +1,12 @@
+#form {
+    background: url('https://source.unsplash.com/1600x900/?restaurant,dining') no-repeat center center/cover;
+    padding: 80px 0;
+}
+
 #form .container {
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -34,13 +39,18 @@
     flex: 1;
 }
 
+.form__group__full {
+    width: 100%;
+}
+
 label {
     font-size: 1.6rem;
     color: #fff;
     font-weight: 600;
+    margin-top: 15px;
 }
 
-input, textarea {
+input, select, textarea {
     width: 100%;
     padding: 12px;
     border: 2px solid transparent;
@@ -51,17 +61,26 @@ input, textarea {
     background: #fff;
 }
 
-input:focus, textarea:focus {
+input:focus, select:focus, textarea:focus {
     border-color: #ffb703;
     box-shadow: 0 0 10px rgba(255, 183, 3, 0.5);
 }
 
 textarea {
     resize: none;
-    min-height: 150px;
+    min-height: 100px;
     width: 100%;
 }
 
+/* Personalizando o Select */
+select {
+    appearance: none;
+    background: #fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23000000"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 12px center;
+    background-size: 20px;
+    cursor: pointer;
+}
+
+/* Botão */
 .btn {
     width: 100%;
     padding: 12px;
@@ -75,13 +94,13 @@ textarea {
     transition: all 0.3s ease-in-out;
 }
 
-.contact-btn {
+.reserve-btn {
     font-size: 1.6rem;
     background: var(--laranja-3);
     color: var(--preto-0);
 }
 
-.contact-btn:hover {
+.reserve-btn:hover {
     background: var(--marrom);
     color: #fff;
     box-shadow: 0 0 10px rgba(255, 183, 3, 0.5);
