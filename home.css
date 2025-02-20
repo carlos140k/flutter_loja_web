@@ -37,9 +37,34 @@
     text-align: center;
 }
 
-.success-btn {
+.btn {
+    color: var(--verde);
+    font-family: 'Poppins';
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: var(--preto-0);
+    background: var(--laranja-3);
+    text-decoration: none;
+}
+
+.primary-btn {
     color: var(--branco);
     background-color: var(--verde);
+}
+
+.primary-btn:hover {
+    background: var(--laranja-3);
+    color: var(--preto-0);
+    box-shadow: 0 0 12px rgba(255, 183, 3, 0.5);
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
