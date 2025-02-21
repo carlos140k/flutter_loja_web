@@ -41,3 +41,16 @@ AOS.init({
     mirror: false, 
     anchorPlacement: 'top-bottom', 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".casal__carousel", {
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 1,
+        spaceBetween: 20,
+    });
+});

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/styles/componentes.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
@@ -380,62 +381,67 @@
     </section>
 
     <section id="casal">
-        <div class="container">
-            <div class="casal__wrapper">
-                <h2 class="casal__title">O que nossos clientes dizem</h2>
-                <div class="casal__items__wrapper">
-                    <div class="casal__item">
+        <div class="container casal__wrapper">
+            <h2 class="casal__title">O que nossos clientes dizem</h2>
+            
+            <div class="swiper casal__carousel">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide casal__item">
                         <div class="casal__item__img">
                             <img src="src/imagens/avatar-1.png" alt="avatar-1">
                         </div>
                         <div class="casal__item__info">
-                            <h3 class="casal__item__name">Meu Nome</h3>
+                            <h3 class="casal__item__name">Cliente 1</h3>
                             <p class="casal__item__text">
-                                Nós visitamos este local com amigos no domingo passado. Refeições realmente adoráveis e boas-vindas calorosas. Nós gostaríamos de recomendar este adorável restaurante e dizer que voltarei novamente
+                                Nós visitamos este local com amigos no domingo passado. Refeições realmente adoráveis e boas-vindas calorosas. Nós gostaríamos de recomendar este adorável restaurante e dizer que voltarei novamente.
                             </p>
                         </div>
                     </div>
-
-                    <div class="casal__item">
+    
+                    <div class="swiper-slide casal__item">
                         <div class="casal__item__img">
                             <img src="src/imagens/avatar-2.png" alt="avatar-2">
                         </div>
                         <div class="casal__item__info">
-                            <h3 class="casal__item__name">Meu Nome</h3>
+                            <h3 class="casal__item__name">Cliente 2</h3>
                             <p class="casal__item__text">
-                                Do início ao fim, experiência adorável. Anfitriã muito agradável, a equipe de garçons Joaquin foi maravilhosa e atencioso, comida farta e deliciosa, sobremesa de outro mundo.
+                                Do início ao fim, experiência adorável. Anfitriã muito agradável, a equipe de garçons Joaquin foi maravilhosa e atenciosa, comida farta e deliciosa, sobremesa de outro mundo.
                             </p>
                         </div>
                     </div>
 
-                    <div class="casal__item">
+                    <div class="swiper-slide casal__item">
                         <div class="casal__item__img">
                             <img src="src/imagens/avatar-3.png" alt="avatar-3">
                         </div>
                         <div class="casal__item__info">
-                            <h3 class="casal__item__name">Meu Nome</h3>
+                            <h3 class="casal__item__name">Cliente 3</h3>
                             <p class="casal__item__text">
-                                Uma recepção calorosa e amigável com um serviço ao cliente fantástico. Comida gostosa sempre boa servida de tubulação quente. Do jeito que nós amamos. Definitivamente recomendo.
+                                Uma recepção calorosa e amigável com um serviço ao cliente fantástico. Comida gostosa sempre boa, servida de tubulação quente. Do jeito que nós amamos. Definitivamente recomendo.
                             </p>
                         </div>
                     </div>
-
-                    <div class="casal__item">
+    
+                    <div class="swiper-slide casal__item">
                         <div class="casal__item__img">
                             <img src="src/imagens/avatar-4.png" alt="avatar-4">
                         </div>
                         <div class="casal__item__info">
-                            <h3 class="casal__item__name">Meu Nome</h3>
+                            <h3 class="casal__item__name">Cliente 4</h3>
                             <p class="casal__item__text">
                                 Queria apenas agradecer o excelente serviço que recebemos no seu restaurante ontem à noite. Embora o lugar estivesse muito cheio, nós ainda nos divertimos muito e realmente apreciamos o show!
                             </p>
                         </div>
                     </div>
-
+    
                 </div>
+    
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
-    </section> 
+    </section>
     
     <section id="inscreva">
         <div class="container">
@@ -567,6 +573,7 @@
     </div>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="src/scripts/main.js"></script>
 </html>

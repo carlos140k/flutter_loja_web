@@ -594,10 +594,8 @@
 
 .casal__wrapper {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 3rem;
-    text-align: center;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -607,13 +605,23 @@
     color: var(--marrom);
     font-weight: 600;
     text-transform: uppercase;
+    width: 30%;
+    text-align: left;
 }
 
-.casal__items__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    width: 100%;
+.casal__carousel {
+    width: 53%;
+    position: relative;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
 }
 
 .casal__item {
@@ -622,10 +630,9 @@
     border-radius: 16px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    position: relative;
-    text-align: left;
-    max-width: 700px; 
-    margin: 0 auto; 
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .casal__item:hover {
@@ -657,8 +664,8 @@
     font-size: 1.6rem;
     color: #333;
     line-height: 1.5;
-    position: relative;
     padding: 1rem 1.5rem;
+    position: relative;
 }
 
 .casal__item__text::before {
@@ -681,17 +688,45 @@
     right: -5px;
 }
 
-@media (max-width: 760px) {
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--marrom);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background: var(--marrom);
+    color: white;
+}
+
+@media (max-width: 960px) {
+    .casal__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .casal__title {
+        width: 100%;
+        text-align: center;
         font-size: 3rem;
     }
 
-    .casal__items__wrapper {
-        grid-template-columns: 1fr; 
+    .casal__carousel {
+        width: 100%;
     }
+}
 
+@media (max-width: 760px) {
     .casal__item {
-        padding: 2.5rem;
+        padding: 2rem;
     }
 
     .casal__item__name {
