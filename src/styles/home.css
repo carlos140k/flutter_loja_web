@@ -447,6 +447,7 @@
 .eventoinfo__item__text {
     font-size: 1.4rem;
     color: var(--preto-2);
+    line-height: 1.2;
 }
 
 .eventoinfo__right {
@@ -463,6 +464,7 @@
     color: var(--preto-2);
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    line-height: 1.2;
 }
 
 @media only screen and (min-width: 760px) {
