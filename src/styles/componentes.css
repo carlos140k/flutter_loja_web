@@ -152,7 +152,8 @@ footer {
 }
 
 .footer__logo {
-    width: 150px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 2rem;
 }
 
